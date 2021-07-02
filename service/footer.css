@@ -1,0 +1,31 @@
+
+footer {
+    height: 221px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#calendar_icon::before {
+    content: url("//images/schedule.png");
+}
+
+#home_icon::before {
+    content: url(//images/Vector\ \(2\).png);
+}   
+
+#phone_icon::before {
+    content: url(/images/Vector\ \(3\).png);
+}
