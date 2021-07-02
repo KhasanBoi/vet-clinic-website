@@ -1,0 +1,56 @@
+.menu-1 {
+    display: flex;
+    justify-content: center;
+}
+.menu-2 {
+    background-color: #F9F8F8;
+}
+.menu-container {
+    display: flex;
+    width: 70vw;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.pages-container {
+    font-size: 1rem;
+    position: relative;
+    bottom: 2rem;
+    left: 6.25rem;
+}
+
+.icons {
+    margin-right: 5px;
+}
+/* TO CENTER FISH ICON */
+.fish-icon {
+    position: relative;
+    top: 5px;
+}
+
+.links {
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+.links:hover {
+    text-decoration: underline;
+}
+.link {
+    margin-right: 3rem;
+    text-decoration: none;
+    color: grey;
+}
+.link:hover {
+    color: black;
+}
+
+.question {
+    color: grey;
+    margin-left: 3rem;
+}
+.question:hover {
+    color: black;
+}
+.btn-pet {
+    text-decoration: none;
+}
